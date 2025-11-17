@@ -1,7 +1,6 @@
 package Arrays;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class Sorting {
     public static void main(String[] args) {
@@ -34,8 +33,8 @@ public class Sorting {
         }
 
         Arrays.sort(s, new SortingUsingComparator());
-        System.out.println("Object Array Afters Sorting using Comparator");
-        for (String a1: s){
+        System.out.println("Object Array After Sorting using Comparator");
+        for (String a1 : s) {
             System.out.println(a1);
         }
 
